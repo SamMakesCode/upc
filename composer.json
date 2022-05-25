@@ -8,13 +8,15 @@
             "email": "samlittler57@gmail.com"
         }
     ],
-    "require": {},
+    "require": {
+        "php": "^8"
+    },
     "autoload": {
         "psr-4": {
             "SamLittler\\UPC\\": "src/"
         }
     },
     "require-dev": {
-        "phpunit/phpunit": "^6.4"
+        "phpunit/phpunit": "^9.5"
     }
 }
